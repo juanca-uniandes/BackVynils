@@ -43,7 +43,7 @@ import { AlbumMusicianModule } from './albummusician/albummusician.module';
       database: 'vinyls',
       entities: [Album, CollectorAlbum, Band, Collector, Comment, Musician, Performer, PerformerPrize, Prize, Track,],
       dropSchema: false,
-      synchronize: false,
+      synchronize: true,
       keepConnectionAlive: false,
       migrations: [__dirname + '/migration/**/*{.ts,.js}'],
       migrationsRun: false,
