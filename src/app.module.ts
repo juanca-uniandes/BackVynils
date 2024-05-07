@@ -46,7 +46,7 @@ import { AlbumMusicianModule } from './albummusician/albummusician.module';
       synchronize: false,
       keepConnectionAlive: false,
       migrations: [__dirname + '/migration/**/*{.ts,.js}'],
-      migrationsRun: true,
+      migrationsRun: false,
     }),
     RecordLabelModule,
     PrizeModule,
